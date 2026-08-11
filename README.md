@@ -1,4 +1,4 @@
-# 🚀 Aneej R Suku — Developer Portfolio
+# 🚀 Aneej R Suku — Portfolio
 
 A modern, responsive, and professional developer portfolio built with **Next.js, React, TypeScript, and CSS**. The portfolio showcases my technical skills, professional experience, projects, and contact information with a clean dark-themed interface, smooth animations, responsive layouts, and a modern developer-focused design.
 
