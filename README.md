@@ -96,6 +96,15 @@ A professional introduction highlighting my background, technical interests, and
 
 Showcases my technical skills across frontend development, state management, backend technologies, databases, and development tools.
 
+### 🏆 Certifications
+
+Highlights my professional certifications and continuous learning, including:
+
+- Front End Development Internship — Wynxio Technologies
+- Developer Essentials — Kerala Blockchain Academy
+- Networking Professionals — KELTRON
+- DevOps and Cloud – The Future of Software Engineering
+
 ### 💼 Experience
 
 A timeline-based presentation of my professional experience and responsibilities.
