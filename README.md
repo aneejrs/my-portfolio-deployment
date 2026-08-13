@@ -153,7 +153,8 @@ portfolio/
 │       ├── Hero.tsx
 │       ├── About.tsx
 │       ├── Skills.tsx
-│       ├── Experience.tsx
+│       ├── Certifications.tsx
+│       ├── Experience.tsx 
 │       ├── Projects.tsx
 │       ├── Contact.tsx
 │       └── Footer.tsx
@@ -163,8 +164,6 @@ portfolio/
 ├── next.config.ts
 ├── tsconfig.json
 └── README.md
-```
-
 
 ## 🏗️ Production Build
 
