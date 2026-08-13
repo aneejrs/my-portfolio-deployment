@@ -96,6 +96,14 @@ A professional introduction highlighting my background, technical interests, and
 
 Showcases my technical skills across frontend development, state management, backend technologies, databases, and development tools.
 
+### 🏆 Certifications
+
+Highlights my professional certifications and continuous learning, including:
+
+- Front End Development Internship — Wynxio Technologies
+- Developer Essentials — Kerala Blockchain Academy
+- DevOps and Cloud – The Future of Software Engineering
+
 ### 💼 Experience
 
 A timeline-based presentation of my professional experience and responsibilities.
@@ -145,7 +153,8 @@ portfolio/
 │       ├── Hero.tsx
 │       ├── About.tsx
 │       ├── Skills.tsx
-│       ├── Experience.tsx
+│       ├── Certifications.tsx
+│       ├── Experience.tsx 
 │       ├── Projects.tsx
 │       ├── Contact.tsx
 │       └── Footer.tsx
@@ -155,8 +164,6 @@ portfolio/
 ├── next.config.ts
 ├── tsconfig.json
 └── README.md
-```
-
 
 ## 🏗️ Production Build
 
