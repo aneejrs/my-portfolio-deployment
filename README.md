@@ -102,7 +102,6 @@ Highlights my professional certifications and continuous learning, including:
 
 - Front End Development Internship — Wynxio Technologies
 - Developer Essentials — Kerala Blockchain Academy
-- Networking Professionals — KELTRON
 - DevOps and Cloud – The Future of Software Engineering
 
 ### 💼 Experience
