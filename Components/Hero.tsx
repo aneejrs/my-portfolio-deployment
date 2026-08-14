@@ -95,7 +95,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="/Aneej_R_Suku_Resume.pdf"
+              href="/Aneej_R_Suku.pdf"
               download
               className="secondary-button"
             >
