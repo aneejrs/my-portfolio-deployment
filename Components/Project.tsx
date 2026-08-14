@@ -11,6 +11,7 @@ const projects = [
     number: "01",
     title: "Kanzas Tours & Travels",
     category: "Tourism Management Platform",
+
     description:
       "Developed a tourism management website for Lakshadweep travel packages with public-facing modules and admin-side functionalities for customer inquiries and content management.",
 
@@ -40,6 +41,7 @@ const projects = [
     number: "02",
     title: "Wyntees",
     category: "E-Commerce Platform",
+
     description:
       "Developed a full-stack e-commerce platform for T-shirt sales with Cash on Delivery support, including frontend, backend and admin management modules.",
 
@@ -67,6 +69,7 @@ const projects = [
     number: "03",
     title: "Alma Elite",
     category: "Corporate Construction Website",
+
     description:
       "Developed a corporate website for a Saudi-based construction company, including public website pages and admin-side content management.",
 
@@ -93,6 +96,7 @@ const projects = [
     number: "04",
     title: "Wynxio Technologies",
     category: "Corporate Website Revamp",
+
     description:
       "Revamped the existing corporate website from ASP.NET MVC to Next.js, modernizing the architecture and improving website performance.",
 
@@ -114,6 +118,41 @@ const projects = [
     liveDemo: "https://www.wynxiotech.com",
     github: "",
   },
+
+  {
+    number: "05",
+    title: "SS Akhil Dath & Gouri Krishna RD",
+    category: "Freelance Digital Wedding Invitation",
+
+    description:
+      "Designed and developed a premium interactive digital wedding invitation as a freelance client project, featuring bilingual content, RSVP functionality, event details, animations and Kerala-inspired visual design.",
+
+    technologies: [
+      "React.js",
+      "TypeScript",
+      "TanStack Start",
+      "TanStack Router",
+      "Vite",
+      "Tailwind CSS",
+      "Git & GitHub",
+      "Vercel",
+    ],
+
+    responsibilities: [
+      "Developed the responsive digital wedding invitation using React.js and TypeScript",
+      "Implemented English and Malayalam language support",
+      "Built interactive RSVP and guest response functionality",
+      "Implemented live wedding countdown and event information sections",
+      "Integrated Google Calendar and Google Maps functionality",
+      "Created Kerala-inspired animations, decorations and visual effects",
+      "Implemented background wedding music and interactive controls",
+      "Optimized the experience for mobile, tablet and desktop devices",
+      "Configured and deployed the production website using Vercel",
+    ],
+
+    liveDemo: "https://wedding.ssakhildath.com",
+    github: "",
+  },
 ];
 
 export default function Projects() {
@@ -121,7 +160,12 @@ export default function Projects() {
     <section id="projects" className="section projects-section">
       <div className="container">
 
+        {/* =====================================================
+            SECTION HEADING
+        ===================================================== */}
+
         <div className="section-heading">
+
           <p className="section-label">
             PROFESSIONAL PROJECTS
           </p>
@@ -132,35 +176,49 @@ export default function Projects() {
           </h2>
 
           <p>
-            A selection of web applications and corporate
-            platforms I&apos;ve worked on using modern
-            frontend technologies.
+            A selection of web applications, corporate platforms
+            and freelance client projects I&apos;ve worked on using
+            modern frontend technologies.
           </p>
+
         </div>
+
+        {/* =====================================================
+            PROJECT LIST
+        ===================================================== */}
 
         <div className="projects-list">
 
           {projects.map((project, index) => (
+
             <motion.article
               key={project.title}
               className="project-card-large"
+
               initial={{
                 opacity: 0,
                 y: 35,
               }}
+
               whileInView={{
                 opacity: 1,
                 y: 0,
               }}
+
               viewport={{
                 once: true,
                 amount: 0.15,
               }}
+
               transition={{
                 duration: 0.5,
                 delay: index * 0.08,
               }}
             >
+
+              {/* =================================================
+                  PROJECT TOP
+              ================================================= */}
 
               <div className="project-top">
 
@@ -174,7 +232,15 @@ export default function Projects() {
 
               </div>
 
+              {/* =================================================
+                  PROJECT MAIN
+              ================================================= */}
+
               <div className="project-main">
+
+                {/* =================================================
+                    PROJECT INFORMATION
+                ================================================= */}
 
                 <div className="project-info">
 
@@ -186,7 +252,12 @@ export default function Projects() {
                     {project.description}
                   </p>
 
+                  {/* =================================================
+                      TECHNOLOGIES
+                  ================================================= */}
+
                   <div className="project-tech">
+
                     {project.technologies.map(
                       (technology) => (
                         <span key={technology}>
@@ -194,7 +265,12 @@ export default function Projects() {
                         </span>
                       )
                     )}
+
                   </div>
+
+                  {/* =================================================
+                      PROJECT ACTIONS
+                  ================================================= */}
 
                   <div className="project-actions">
 
@@ -205,10 +281,12 @@ export default function Projects() {
                       className="project-live-button"
                     >
                       <FaExternalLinkAlt />
+
                       Live Demo
                     </a>
 
                     {project.github && (
+
                       <a
                         href={project.github}
                         target="_blank"
@@ -216,13 +294,19 @@ export default function Projects() {
                         className="project-github-button"
                       >
                         <FaGithub />
+
                         GitHub
                       </a>
+
                     )}
 
                   </div>
 
                 </div>
+
+                {/* =================================================
+                    RESPONSIBILITIES
+                ================================================= */}
 
                 <div className="project-responsibilities">
 
@@ -231,13 +315,17 @@ export default function Projects() {
                   </h4>
 
                   <ul>
+
                     {project.responsibilities.map(
                       (responsibility) => (
+
                         <li key={responsibility}>
                           {responsibility}
                         </li>
+
                       )
                     )}
+
                   </ul>
 
                 </div>
@@ -245,6 +333,7 @@ export default function Projects() {
               </div>
 
             </motion.article>
+
           ))}
 
         </div>
