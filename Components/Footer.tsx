@@ -6,10 +6,6 @@ export default function Footer() {
           © {new Date().getFullYear()} Aneej R Suku.
           All rights reserved.
         </p>
-
-        <p>
-          Designed & built with Next.js
-        </p>
       </div>
     </footer>
   );

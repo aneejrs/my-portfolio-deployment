@@ -23,9 +23,6 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <p className="hero-intro">
-            FRONTEND DEVELOPER
-          </p>
 
           <h1 className="hero-name-main">
            <p>Hi, I’m</p> 
@@ -33,7 +30,7 @@ export default function Hero() {
           </h1>
 
           <h2 className="hero-position">
-            React Developer
+            Frontend React Developer
           </h2>
 
           <p className="hero-description">

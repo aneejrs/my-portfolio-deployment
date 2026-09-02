@@ -2113,6 +2113,45 @@ SMALL MOBILE
 /* =========================================================
    PROJECTS
 ========================================================= */
+.projects {
+  position: relative;
+}
+
+/* PROFESSIONAL PROJECTS OVAL HEADING */
+.projects .section-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 8px 20px;
+
+  border-radius: 999px;
+
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  transition:
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.projects .section-label:hover {
+  transform: translateY(-2px);
+
+  border-color: rgba(255, 255, 255, 0.25);
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.2);
+}
 /* =========================================================
    PROJECTS SECTION
 ========================================================= */
@@ -2138,7 +2177,42 @@ SMALL MOBILE
       transparent 30%
     );
 }
+.project-card {
+  border-radius: 30px;
+  overflow: hidden;
+}
+/* PROFESSIONAL PROJECTS - OVAL LABEL */
+.projects .section-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
+  padding: 8px 20px;
+  border-radius: 999px;
+
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #fff;
+
+  box-shadow: 0 0 20px rgba(0, 245, 255, 0.06);
+
+  transition: all 0.3s ease;
+}
+
+.projects .section-label:hover {
+  border-color: rgba(0, 245, 255, 0.35);
+  box-shadow: 0 0 25px rgba(0, 245, 255, 0.12);
+  transform: translateY(-2px);
+}
 /* =========================================================
    PROJECTS CONTAINER
 ========================================================= */
