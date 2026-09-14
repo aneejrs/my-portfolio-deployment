@@ -30,7 +30,7 @@ export default function Hero() {
           </h1>
 
           <h2 className="hero-position">
-            Frontend React Developer
+            Frontend Developer
           </h2>
 
           <p className="hero-description">
@@ -92,7 +92,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="/AneejRSuku_Resume.pdf"
+              href="/Aneej_R_SukuResume.pdf"
               download
               className="secondary-button"
             >

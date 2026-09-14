@@ -1177,6 +1177,35 @@ SMALL MOBILE
   line-height: 1.85;
 }
 
+/* =========================================
+   SCROLLBAR
+========================================= */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111827;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #06b6d4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0891b2;
+}
+
+/* =========================================
+   TEXT SELECTION
+========================================= */
+
+::selection {
+  background: #06b6d4;
+  color: #ffffff;
+}
 /* =========================================================
    HERO EXPERIENCE
 ========================================================= */
